@@ -1,0 +1,161 @@
+/* CUSTOM -- CUSTOM -- CUSTOM -- CUSTOM */
+/* v1.5 */
+
+:root {
+  --new-yellow: #b97229;
+  --new-green: #1d4d36;
+  
+  --bk-new: var(--new-yellow);
+  --bk-finish: var(--new-yellow);
+}
+
+/* NEW */
+html[native-dark-active] .p-tag.p-tag-warning {
+  background-color: var(--bk-new) !important;
+}
+
+/* FINISHING */
+span.p-tag.p-component.p-tag-warning {
+  background-color: var(--bk-finish) !important;
+}
+
+/* DUPLICATE BOOKING */
+html[native-dark-active] td.bg-yellow-100 {
+  background-color: #493e3a !important;  
+}
+
+.chat-details-modal .messages-container {
+  background: #313134 !important;
+}
+
+
+/* WHATSAPP TEXTBOX */
+
+/* RECEIVER */
+.flex.flex-column.w-max.p-2.gap-2.border-round-md.shadow-2.relative {
+  background: #1c1c1f !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+/* SENDER */
+.flex.flex-column.w-max.p-2.gap-2.border-round-md.shadow-2.relative:has(small) {
+  background: #292930 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.flex.flex-column.w-max.p-2.gap-2.border-round-md.shadow-2.relative small {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  background-color: #383847;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+/* TRANSFER MODAL */
+.p-3.flex.align-items-center.cursor-pointer.hover\:surface-100 span {
+  color: #fff !important;
+}
+
+.flex.flex-column.h-full .p-3,
+.overflow-y-auto.flex-1.px-3,
+.flex.align-items-center.justify-content-between.p-3.border-round,
+p.text-sm.mb-2 {
+  background-color: var(--native-dark-bg-color) !important;
+  color: #fff !important;
+}
+
+.p-inputtext {
+  background-color: var(--native-dark-bg-color) !important;
+}
+
+button.p-button.p-component.w-6.font-bold.p-button-secondary {
+  background-color: #1c1c1f !important;
+}
+
+button.p-button.p-component.w-6.font-bold.p-button-secondary span {
+  color: #fff !important;
+}
+
+span.bg-orange-500.border-circle.flex.align-items-center.justify-content-center {
+  background-color: #cf7429 !important;
+  border-color: #cf7429 !important;
+}
+
+.bg-green-500.border-circle.flex.align-items-center.justify-content-center {
+  background-color: #51a861 !important;
+  border-color: #51a861 !important;
+}
+
+/* END OF WSP */
+
+/* FAVORITE DRIVER TEXT */
+button.p-button.p-component.p-button-rounded.p-button-text span.p-badge.p-component.p-badge-no-gutter {
+  color: #fff !important;
+}
+
+i.pi.pi-check {
+  color: #aee8bf !important;
+}
+
+html[native-dark-active] .p-badge.p-badge-warning {
+  background: var(--new-yellow) !important;
+}
+
+span.bg-red-500.border-circle.border-2.md\:border-none.border-white.w-1rem.md\:w-2rem.h-1rem.md\:h-2rem.flex.align-items-center.justify-content-center {
+  background: #cb3838 !important;
+}
+
+span.bg-orange-500.border-circle.border-2.md\:border-none.border-white.w-1rem.md\:w-2rem.h-1rem.md\:h-2rem.flex.align-items-center.justify-content-center {
+  background: var(--new-yellow) !important;
+}
+
+span.bg-green-500.border-circle.border-2.md\:border-none.border-white.w-1rem.md\:w-2rem.h-1rem.md\:h-2rem.flex.align-items-center.justify-content-center {
+  background: #84be52 !important;
+  outline: 4px solid #c3deab;
+}
+
+/* DRIVER PAGE BT */
+.p-paginator-page.p-paginator-element.p-link.p-paginator-page-start.p-highlight,
+.p-paginator-page.p-paginator-element.p-link.p-paginator-page-end.p-highlight,
+button.p-paginator-page.p-paginator-element.p-link.p-highlight {
+  background-color: #395c43 !important;
+}
+
+/*HEADER TEXT*/
+h6.MuiTypography-root.MuiTypography-h6.MuiTypography-noWrap {
+  color: #fff !important;
+}
+
+/* CHAT DRIVER NAMES */
+.flex.flex-nowrap.justify-content-between.align-items-center.border-1.surface-border.border-round.p-3.cursor-pointer.select-none.hover\:surface-hover.transition-colors.transition-duration-150 span {
+  color: white !important;
+}
+
+.flex.flex-nowrap.justify-content-between.align-items-center.border-1.surface-border.border-round.p-3.cursor-pointer.select-none.hover\:surface-hover.transition-colors.transition-duration-150:hover {
+  border: 2px solid white !important;
+}
+
+/* BOOKING MODAL */
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.jss1297.MuiButton-containedPrimary.MuiButton-containedSizeSmall.MuiButton-sizeSmall,
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.jss1297.MuiButton-containedPrimary.MuiButton-containedSizeLarge.MuiButton-sizeLarge {
+  background-color: var(--new-green) !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.jss1298.MuiButton-containedSizeLarge.MuiButton-sizeLarge {
+  background-color: #3c403c !important;
+}
+
+/* ROW HIGHLIGHT */
+tr.p-selectable-row:hover {
+  filter: brightness(150%);
+}
+
+/* BOOKINGS */
+.p-datatable.p-datatable-striped .p-datatable-tbody > tr.p-row-odd {
+  background-color: #333333 !important;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+}
+
+/* CUSTOM -- CUSTOM -- CUSTOM -- CUSTOM */
